@@ -16,7 +16,7 @@ externalproject_add(bnes
                     PREFIX bnes
                     CONFIGURE_COMMAND ""
                     INSTALL_COMMAND ""
-                    BUILD_COMMAND make CXX=${CMAKE_CXX_COMPILER}
+                    BUILD_COMMAND make CXX=${CMAKE_CXX_COMPILER} platform=x
                     BUILD_IN_SOURCE 1)
 
 set(BNES_CUSTOM_BINARY ${PROJECT_BINARY_DIR}/bnes/src/bnes/libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
