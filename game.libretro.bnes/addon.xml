@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="gameclient.bnes"
+<addon id="game.libretro.bnes"
   name="bNES"
   version="0.83.1"
   provider-name="Libretro">
   <requires>
-    <import addon="xbmc.libretro" version="1.0.0"/>
+    <import addon="game.libretro" version="1.0.0"/>
+    <import addon="game.controller.nes" version="1.0.0"/>
   </requires>
-  <extension point="xbmc.gameclient"
-    library_android=""
-    library_linux="bnes_libretro.so"
-    library_osx=""
-    library_windx=""
-    library_wingl="">
+  <extension point="kodi.gameclient"
+    library_android="libgame.libretro.bnes.so"
+    library_linux="game.libretro.bnes.so"
+    library_osx="game.libretro.bnes.dylib"
+    library_windx="game.libretro.bnes.dll"
+    library_wingl="game.libretro.bnes.dll">
     <platforms>NES</platforms>
     <extensions>nes</extensions>
     <allowvfs>true</allowvfs>
@@ -26,9 +27,7 @@
       Authors: byuu, Ryphecha.
 
       Source: https://github.com/libretro/bnes-libretro</description>
-    <platform>linux</platform>
-    <nofanart>true</nofanart>
+    <platform>all</platform>
     <!--<broken>Poor performance and reported crashes. Use FCEU-Next.</broken>-->
-
   </extension>
 </addon>
