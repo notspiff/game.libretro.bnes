@@ -22,12 +22,12 @@
     <summary lang="en">bNES v083</summary>
     <description>libretro port of bNES, a NES emulator.
 
-      Supported files: .nes
+Supported files: .nes
 
-      Authors: byuu, Ryphecha.
+Authors: byuu, Ryphecha.
 
-      Source: https://github.com/libretro/bnes-libretro</description>
+License: GPLv3</description>
     <platform>all</platform>
-    <!--<broken>Poor performance and reported crashes. Use FCEU-Next.</broken>-->
+    <nofanart>true</nofanart>
   </extension>
 </addon>
