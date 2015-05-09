@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bnes"
   name="bNES"
-  version="0.83.1"
+  version="0.83.0"
   provider-name="Libretro">
   <requires>
     <import addon="game.libretro" version="1.0.0"/>
@@ -15,8 +15,8 @@
     library_wingl="game.libretro.bnes.dll">
     <platforms>NES</platforms>
     <extensions>nes</extensions>
-    <allowvfs>true</allowvfs>
-    <blockextract>false</blockextract>
+    <supports_vfs>true</supports_vfs>
+    <supports_no_game>false</supports_no_game>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">bNES v083</summary>
