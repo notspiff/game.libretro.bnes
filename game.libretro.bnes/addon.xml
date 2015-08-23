@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bnes"
-  name="bNES"
+  name="NES (bNES)"
   version="0.83.0"
   provider-name="Libretro">
   <requires>
