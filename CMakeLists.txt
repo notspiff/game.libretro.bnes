@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 enable_language(CXX)
 
 find_package(kodi REQUIRED)
-find_package(bnes REQUIRED)
+find_package(libretro-bnes REQUIRED)
 
 set(DEPLIBS bnes)
 set(BNES_CUSTOM_BINARY ${BNES_LIB}
