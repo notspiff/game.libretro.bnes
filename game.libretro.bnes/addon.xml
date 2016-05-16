@@ -8,11 +8,7 @@
     <import addon="game.controller.nes" version="1.0.0"/>
   </requires>
   <extension point="kodi.gameclient"
-    library_android="libgame.libretro.bnes.so"
-    library_linux="game.libretro.bnes.so"
-    library_osx="game.libretro.bnes.dylib"
-    library_windx="game.libretro.bnes.dll"
-    library_wingl="game.libretro.bnes.dll">
+    library_@PLATFORM@="@LIBRARY_FILENAME@">
     <platforms>NES</platforms>
     <extensions>nes</extensions>
     <supports_vfs>true</supports_vfs>
@@ -27,7 +23,7 @@ Supported files: .nes
 Authors: byuu, Ryphecha.
 
 License: GPLv3</description>
-    <platform>all</platform>
+    <platform>@PLATFORM@</platform>
     <nofanart>true</nofanart>
   </extension>
 </addon>
