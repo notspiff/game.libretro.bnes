@@ -26,7 +26,7 @@ Authors: byuu, Ryphecha.</description>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
-			<icon>icon.png</icon>
+			<icon>resources/icon.png</icon>
 		</assets>
 	</extension>
 </addon>
