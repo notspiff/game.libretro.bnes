@@ -17,7 +17,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">NES / Famicom (bnes) v083 0a7c760</summary>
+		<summary lang="en">NES / Famicom (bnes) v083</summary>
 		<description>libretro port of bNES, a NES emulator.
 
 Supported files: .nes
