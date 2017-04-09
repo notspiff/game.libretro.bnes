@@ -20,9 +20,9 @@
 		<summary lang="en">NES / Famicom (bnes) v083</summary>
 		<description>libretro port of bNES, a NES emulator.
 
-Supported files: .nes
+Authors: byuu, Ryphecha.
 
-Authors: byuu, Ryphecha.</description>
+Supported files: .nes</description>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
